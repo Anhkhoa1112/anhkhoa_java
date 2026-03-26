@@ -3,7 +3,7 @@ name: CI/CD Docker Build and Push
 # Điều kiện kích hoạt: Mỗi khi Push code lên nhánh main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main/anhkhoa1528" ]
 
 jobs:
   deploy:
